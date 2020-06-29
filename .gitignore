@@ -1,43 +1,27 @@
-*.java.hsp
-*.sonarj
-*.sw*
-.DS_Store
-.settings
-.springBeans
-bin
-build.sh
-integration-repo
-ivy-cache
-jxl.log
-jmx.log
-derby.log
-spring-test/test-output/
-.gradle
-argfile*
-pom.xml
-activemq-data/
+### Example user template
 
-classes/
-/build
-buildSrc/build
-/spring-*/build
-/spring-core/kotlin-coroutines/build
-/framework-bom/build
-/integration-tests/build
-/src/asciidoc/build
-target/
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+# Created by .ignore support plugin (hsz.mobi)
+frontgateway-dal/bin/
+frontgateway-client/.settings/
+.settings/
+*.settings/
+cp.sh
+logs*
+*.log
+rebel.xml
+### Example user template template
+### Example user template
 
-# Eclipse artifacts, including WTP generated manifests
-.classpath
-.project
-spring-*/src/main/java/META-INF/MANIFEST.MF
-
-# IDEA artifacts and output dirs
+# IntelliJ project files
+.idea
 *.iml
 *.ipr
-*.iws
-.idea
 out
-test-output
-atlassian-ide-plugin.xml
-.gradletasknamecache
+gen
+/classes
+target
