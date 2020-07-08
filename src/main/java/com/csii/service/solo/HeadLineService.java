@@ -21,5 +21,5 @@ public interface HeadLineService {
 
     Result<HeadLine> queryHeadLineById(int headLineId);
 
-    Result<List> queryHeadLine(HeadLine headLineCondition,int pageIndex,int pageSize);
+    Result<List<HeadLine>> queryHeadLine(HeadLine headLineCondition,int pageIndex,int pageSize);
 }

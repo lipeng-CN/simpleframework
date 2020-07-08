@@ -21,5 +21,5 @@ public interface ShopCategoryService {
 
     Result<ShopCategory> queryShopCategoryById(int shopCategoryId);
 
-    Result<List> queryShopCategory(ShopCategory shopCategoryCondition, int pageIndex, int pageSize);
+    Result<List<ShopCategory>> queryShopCategory(ShopCategory shopCategoryCondition, int pageIndex, int pageSize);
 }
